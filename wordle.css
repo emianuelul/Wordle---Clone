@@ -41,6 +41,9 @@ hr {
     width: 36px;
     height: 40px;
     margin: 1px;
+    border-radius: 10px;
+
+    user-select: none;
 
     font-size: 20px;
     font-weight: bold;
@@ -54,6 +57,9 @@ hr {
     width: 76px;
     height: 40px;
     margin: 1px;
+    border-radius: 10px;
+
+    user-select: none;
 
     font-size: 20px;
     font-weight: bold;
@@ -68,6 +74,9 @@ hr {
     width: 60px;
     height: 60px;
     margin: 2.5px;
+    border-radius: 10px;
+
+    user-select: none;
 
     /* Text */
     color: black;

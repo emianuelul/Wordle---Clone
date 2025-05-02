@@ -15015,6 +15015,7 @@ function update() {
 
         if (correct == width) {
             gameOver = true;
+            document.getElementById("answer").innerText = "You Guessed it!";
         }
     }
 
@@ -15035,6 +15036,13 @@ function update() {
 
                 letterCount[letter] -= 1;
             } else {
+                let keyTile = document.getElementById("Key" + letter);
+                if (
+                    !keyTile.classList.contains("correct") ||
+                    !keyTile.classList.contains("present")
+                ) {
+                    keyTile.classList.add("absent");
+                }
                 currTile.classList.add("absent");
             }
         }

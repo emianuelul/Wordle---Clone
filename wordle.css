@@ -21,13 +21,13 @@ hr {
     display: flex;
     flex-wrap: wrap;
 }
-/* 
+
 #answer {
     height: 30px;
     width: 10px;
     font-size: 24px;
     font-weight: bold;
-} */
+}
 
 .keyboard-row {
     width: 400px;
